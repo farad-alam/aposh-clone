@@ -1,0 +1,91 @@
+.footer {
+  background-color: var(--color-footer-bg);
+  color: var(--color-footer-text);
+  padding-top: 40px;
+  margin-top: auto;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.section h3 {
+  color: var(--color-white);
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  border-bottom: 2px solid var(--color-primary);
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.section p {
+  color: var(--color-footer-text);
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.linksList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.linksList li {
+  margin-bottom: 10px;
+}
+
+.linksList a {
+  color: var(--color-footer-text);
+  opacity: 0.9;
+  transition: opacity 0.2s ease, color 0.2s ease;
+  display: inline-block;
+}
+
+.linksList a:hover {
+  color: var(--color-white);
+  opacity: 1;
+  text-decoration: none;
+  transform: translateX(5px);
+}
+
+.contactItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.contactItem i {
+  color: var(--color-primary);
+  margin-top: 5px;
+}
+
+.contactItem a {
+  color: inherit;
+  transition: color 0.2s;
+}
+
+.contactItem a:hover {
+  color: var(--color-white);
+}
+
+.bottomBar {
+  background-color: #11181f; /* darker than footer bg */
+  text-align: center;
+  padding: 15px 20px;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}

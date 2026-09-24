@@ -79,11 +79,11 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", sizes: "any" },
       { url: "/logos/aposh_logo.png", type: "image/png", sizes: "192x192" },
     ],
     apple: [{ url: "/logos/aposh_logo.png", sizes: "180x180" }],
-    shortcut: "/favicon.ico",
+    shortcut: "/icon.png",
   },
   manifest: "/manifest.webmanifest",
   verification: {

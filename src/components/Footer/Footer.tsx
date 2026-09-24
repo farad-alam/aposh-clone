@@ -20,7 +20,6 @@ export default function Footer() {
           <ul className={styles.linksList}>
             <li><Link href="/">Home</Link></li>
             <li><Link href="/pages/project">Projects</Link></li>
-            <li><Link href="/pages/service">Services</Link></li>
             <li><Link href="/pages/notice">Notice</Link></li>
             <li><Link href="/pages/contact">Contact</Link></li>
           </ul>
@@ -35,15 +34,11 @@ export default function Footer() {
           </div>
           <div className={styles.contactItem}>
             <i className="fa-solid fa-phone"></i>
-            <p>Phone: <a href="tel:+8801733382721">+88 01715 605080</a></p>
+            <p>Phone: <a href="tel:01723667373">01723667373</a></p>
           </div>
           <div className={styles.contactItem}>
             <i className="fa-solid fa-envelope"></i>
-            <p>Email: <a href="mailto:usschbd@gmail.com">abashar302@yahoo.com</a></p>
-          </div>
-          <div className={styles.contactItem}>
-            <i className="fa-solid fa-globe"></i>
-            <p>Web: <a href="http://www.usschoolbd.com" target="_blank" rel="noopener noreferrer">www.aposh.org</a></p>
+            <p>Email: <a href="mailto:info@aposhs.org">info@aposhs.org</a></p>
           </div>
         </div>
 

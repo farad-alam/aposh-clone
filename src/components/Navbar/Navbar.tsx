@@ -57,13 +57,7 @@ export default function Navbar() {
             <i className="fas fa-briefcase"></i> Projects
           </Link>
           
-          <Link 
-            href="/pages/service" 
-            className={`${styles.navLink} ${pathname === '/pages/service' ? styles.active : ''}`}
-            onClick={closeMenu}
-          >
-            <i className="fas fa-handshake"></i> Services
-          </Link>
+
 
           <div className={styles.navItemDropdown}>
             <button 

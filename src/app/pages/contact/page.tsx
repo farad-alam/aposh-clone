@@ -43,10 +43,7 @@ export default function ContactPage() {
               <i className="fa-solid fa-envelope"></i>
               <p><strong>Email:</strong><br/><a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a></p>
             </div>
-            <div className={styles.infoItem}>
-              <i className="fa-solid fa-globe"></i>
-              <p><strong>Website:</strong><br/><a href={`http://${siteConfig.website}`} target="_blank" rel="noopener noreferrer">{siteConfig.website}</a></p>
-            </div>
+
           </div>
         </div>
 

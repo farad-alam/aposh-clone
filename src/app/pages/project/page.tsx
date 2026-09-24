@@ -4,8 +4,14 @@ import { ongoingProjects, closedProjects } from '@/data/projects';
 import styles from './page.module.css';
 
 export const metadata: Metadata = {
-  title: 'Projects | APOSH – Ashokta Punarbashan Sangstha',
-  description: 'Ongoing and closed projects of APOSH, an NGO running drug rehabilitation programs in Rajshahi, Bangladesh.',
+  title: 'Projects | APOSH – Drug Rehabilitation NGO Rajshahi',
+  description: 'Ongoing and closed projects of APOSH – an NGO running drug rehabilitation, detoxification, and HIV prevention programs across 10 districts in Bangladesh.',
+  alternates: { canonical: 'https://www.aposh.org/pages/project' },
+  openGraph: {
+    title: 'Projects | APOSH – Drug Rehabilitation NGO Rajshahi',
+    description: 'Ongoing and closed projects of APOSH, running drug rehabilitation and HIV prevention programs across Bangladesh.',
+    url: 'https://www.aposh.org/pages/project',
+  },
 };
 
 export default function ProjectsPage() {

@@ -4,14 +4,14 @@ import Carousel from '@/components/Carousel/Carousel';
 import styles from './page.module.css';
 
 export const metadata: Metadata = {
-  title: 'APOSH – Ashokta Punarbashan Sangstha | Drug Rehabilitation Rajshahi',
+  title: 'Ashokta Punarbashan Sangstha (APOSH)',
   description:
     'APOSH (Ashokta Punarbashan Sangstha) is an NGO in Rajshahi, Bangladesh offering drug detoxification, rehabilitation, HIV/AIDS prevention, and harm reduction services since 1999.',
   alternates: {
     canonical: 'https://www.aposh.org/',
   },
   openGraph: {
-    title: 'APOSH – Ashokta Punarbashan Sangstha | Drug Rehabilitation Rajshahi',
+    title: 'Ashokta Punarbashan Sangstha (APOSH)',
     description: 'Drug detoxification, rehabilitation, and HIV/AIDS prevention services in Rajshahi, Bangladesh since 1999.',
     url: 'https://www.aposh.org/',
   },

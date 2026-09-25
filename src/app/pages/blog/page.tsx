@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import styles from '../notice/page.module.css';
 
 export const metadata: Metadata = {
-  title: 'Events | APOSH – Ashokta Punarbashan Sangstha',
+  title: 'Events',
   description: 'Latest events and blog posts from APOSH.',
 };
 

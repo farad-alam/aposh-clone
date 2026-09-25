@@ -21,8 +21,8 @@ const BASE_URL = "https://www.aposh.org";
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "APOSH – Ashokta Punarbashan Sangstha",
-    template: "%s | APOSH",
+    default: "Ashokta Punarbashan Sangstha (APOSH)",
+    template: "%s | Ashokta Punarbashan Sangstha (APOSH)",
   },
   description:
     "Ashokta Punarbashan Sangstha (APOSH) – A non-government, non-profit organization in Rajshahi, Bangladesh providing drug rehabilitation, detoxification, and HIV/AIDS prevention services since 1999.",
@@ -54,8 +54,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: BASE_URL,
-    siteName: "APOSH – Ashokta Punarbashan Sangstha",
-    title: "APOSH – Ashokta Punarbashan Sangstha",
+    siteName: "Ashokta Punarbashan Sangstha (APOSH)",
+    title: "Ashokta Punarbashan Sangstha (APOSH)",
     description:
       "A non-government, non-profit organization in Rajshahi, Bangladesh providing drug rehabilitation, detoxification, and HIV/AIDS prevention services since 1999.",
     images: [
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "APOSH – Ashokta Punarbashan Sangstha",
+    title: "Ashokta Punarbashan Sangstha (APOSH)",
     description:
       "A non-government, non-profit organization in Rajshahi, Bangladesh providing drug rehabilitation and HIV/AIDS prevention services.",
     images: [`${BASE_URL}/og-image.png`],

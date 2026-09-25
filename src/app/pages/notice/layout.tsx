@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Notice | APOSH – Ashokta Punarbashan Sangstha',
+  title: 'Notice',
   description: 'Latest news, announcements, and notices from APOSH – an NGO providing drug rehabilitation and HIV prevention services in Rajshahi, Bangladesh.',
   alternates: { canonical: 'https://www.aposh.org/pages/notice' },
   openGraph: { url: 'https://www.aposh.org/pages/notice' },

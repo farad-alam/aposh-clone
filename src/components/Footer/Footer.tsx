@@ -33,10 +33,6 @@ export default function Footer() {
             <p>Address: Kashiadanga More (Beside Sonali Bank)<br/>Rajshahi Court, Rajshahi-6000</p>
           </div>
           <div className={styles.contactItem}>
-            <i className="fa-solid fa-phone"></i>
-            <p>Phone: <a href="tel:01723667373">01723667373</a></p>
-          </div>
-          <div className={styles.contactItem}>
             <i className="fa-solid fa-envelope"></i>
             <p>Email: <a href="mailto:info@aposhs.org">info@aposhs.org</a></p>
           </div>

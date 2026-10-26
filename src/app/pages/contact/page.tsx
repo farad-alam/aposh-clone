@@ -36,10 +36,6 @@ export default function ContactPage() {
               <p><strong>Address:</strong><br/>{siteConfig.address}</p>
             </div>
             <div className={styles.infoItem}>
-              <i className="fa-solid fa-phone"></i>
-              <p><strong>Phone:</strong><br/><a href={`tel:${siteConfig.phone.replace(/[^0-9+]/g, '')}`}>{siteConfig.phone}</a></p>
-            </div>
-            <div className={styles.infoItem}>
               <i className="fa-solid fa-envelope"></i>
               <p><strong>Email:</strong><br/><a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a></p>
             </div>

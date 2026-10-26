@@ -40,11 +40,11 @@ export const metadata: Metadata = {
   creator: "APOSH",
   publisher: "Ashokta Punarbashan Sangstha",
   robots: {
-    index: true,
-    follow: true,
+    index: false,
+    follow: false,
     googleBot: {
-      index: true,
-      follow: true,
+      index: false,
+      follow: false,
       "max-video-preview": -1,
       "max-image-preview": "large",
       "max-snippet": -1,
@@ -111,13 +111,6 @@ const organizationSchema = {
     addressRegion: "Rajshahi",
     postalCode: "6000",
     addressCountry: "BD",
-  },
-  contactPoint: {
-    "@type": "ContactPoint",
-    telephone: "+8801723667373",
-    contactType: "customer service",
-    email: "info@aposhs.org",
-    availableLanguage: ["en", "bn"],
   },
   areaServed: {
     "@type": "Country",
